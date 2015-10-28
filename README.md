@@ -1,6 +1,6 @@
-# grunt-standard
+# grunt-semistandard
 
-> Grunt plugin for [standard](https://github.com/feross/standard) linter.
+> Grunt plugin for [semistandard](https://github.com/Flet/semistandard) linter.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-standard --save-dev
+npm install grunt-semistandard --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-standard');
+grunt.loadNpmTasks('grunt-semistandard');
 ```
 
 ## The "standard" task
 
 ### Overview
-In your project's Gruntfile, add a section named `standard` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `semistandard` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  standard: {
+  semistandard: {
     options: {
       // Task-specific options go here.
     },
@@ -41,13 +41,13 @@ grunt.initConfig({
 Type: `Boolean`
 Default value: `false`
 
-Whether or not the source files should be auto-formatted using [standard-format](https://github.com/maxogden/standard-format).
+Whether or not the source files should be auto-formatted using [semistandard-format](https://github.com/ricardofbarros/semistandard-format).
 
 #### options.lint
 Type: `Boolean`
 Default value: `true`
 
-Whether ot not the source files should be linted using [standard](https://github.com/feross/standard).
+Whether ot not the source files should be linted using [semistandard](https://github.com/Flet/semistandard).
 
 ### Usage Examples
 
@@ -57,7 +57,7 @@ In this example, the default options are used to lint the specified *.js files i
 
 ```js
 grunt.initConfig({
-  standard: {
+  semistandard: {
     app: {
       src: [
         '{,lib/,tasks/}*.js'
@@ -73,7 +73,7 @@ In this example, the `format` option is set to `true` so the source files will b
 
 ```js
 grunt.initConfig({
-  standard: {
+  semistandard: {
     options: {
       format: true
     },
