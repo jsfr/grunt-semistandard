@@ -1,15 +1,15 @@
 /*
- * grunt-standard
- * https://github.com/pdehaan/grunt-standard
+ * grunt-semistandard
+ * https://github.com/jsfr/grunt-semistandard
  *
- * Copyright (c) 2015 Peter deHaan
+ * Copyright (c) 2015 Jens Fredskov
  * Licensed under the WTFPL license.
  */
 
-'use strict'
+'use strict';
 
 module.exports = function (grunt) {
-  grunt.loadNpmTasks('grunt-nsp-shrinkwrap')
+  grunt.loadNpmTasks('grunt-nsp-shrinkwrap');
 
   // Project configuration.
   grunt.initConfig({
@@ -24,11 +24,11 @@ module.exports = function (grunt) {
         ]
       }
     }
-  })
+  });
 
   // Actually load this plugin's task(s).
-  grunt.loadTasks('tasks')
+  grunt.loadTasks('tasks');
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['standard'])
+  grunt.registerTask('default', ['semistandard']);
 }
