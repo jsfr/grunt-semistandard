@@ -1,13 +1,13 @@
 {
-  "name": "grunt-standard",
-  "description": "Grunt plugin for standard linter.",
-  "version": "2.0.0",
+  "name": "grunt-semistandard",
+  "description": "Grunt plugin for semistandard linter.",
+  "version": "1.0.0",
   "author": {
-    "name": "Peter deHaan",
-    "email": "peter@deseloper.com"
+    "name": "Jens Fredskov",
+    "email": "jensfredskov@protonmail.ch"
   },
   "bugs": {
-    "url": "https://github.com/pdehaan/grunt-standard/issues"
+    "url": "https://github.com/jsfr/grunt-semistandard/issues"
   },
   "dependencies": {
     "chalk": "1.1.1",
@@ -24,16 +24,16 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "homepage": "https://github.com/pdehaan/grunt-standard",
+  "homepage": "https://github.com/jsfr/grunt-semistandard",
   "keywords": [
     "gruntplugin",
-    "standard"
+    "semistandard"
   ],
   "license": "WTFPL",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pdehaan/grunt-standard.git"
+    "url": "git://github.com/jsfr/grunt-semistandard.git"
   },
   "scripts": {
     "outdated": "npm outdated --depth 0",
