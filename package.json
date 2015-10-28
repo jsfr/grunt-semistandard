@@ -1,7 +1,7 @@
 {
   "name": "grunt-semistandard",
   "description": "Grunt plugin for semistandard linter.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Jens Fredskov",
     "email": "jensfredskov@protonmail.ch"
